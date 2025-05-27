@@ -6,7 +6,7 @@
 .winMessage{
     position: fixed;
     font-family: "Inter", sans-serif;
-    font-size: x-large;
+    /* font-size: larger; */
     font-weight: bold;
     top: 25%;
 }
@@ -14,8 +14,8 @@
 .resetButton{
     position: fixed;
     font-family: "Inter", sans-serif;
-    font-size: larger;
-    font-weight: bold; 
+    /* font-size: larger; */
+    /* font-weight: bold;  */
     border-width: 4px;
     padding-top: 4px;
     padding-bottom: 4px;
@@ -23,15 +23,15 @@
     padding-right: 8px;
     border-radius: 5px;
     border-color: transparent;
-    bottom: 25%;
+    top: 27%;
 }
 
 .resetButton:hover{
     text-decoration: underline;
-    text-decoration-thickness: 4px;
+    text-decoration-thickness: 2px;
 }
 
 .start_button:hover{
     text-decoration: underline;
-    text-decoration-thickness: 4px;
+    text-decoration-thickness: 2px;
 }
